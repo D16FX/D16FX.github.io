@@ -1,6 +1,6 @@
 function playSound()
 {
-    audio = new Audio('start.mp3');
+    audio = new Audio('startPagani.mp3');
     audio.play();
 }
 function hide()
