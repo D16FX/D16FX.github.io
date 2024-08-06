@@ -1,0 +1,19 @@
+@font-face
+{
+    font-family: HeroTitleFont;
+    src: url(GreatVibes-Regular.ttf);
+}
+@font-face
+{
+    font-family: navFont;
+    src: url(Arizonia-Regular.ttf);
+}
+.titre
+{
+    text-align: center;
+}
+.titre h2
+{
+    font-family: HeroTitleFont;
+    font-size: 50px;
+}
