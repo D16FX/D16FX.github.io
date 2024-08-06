@@ -77,12 +77,17 @@ header #heroimage img
 {
     width: 100%;
     transition-duration: 400ms;
-}
+}  
 
 header #heroimage img:hover
 {
     margin-left: -9%;
     width: 120%;
+}
+.footer #heroimage1 img
+{
+    width: 20px;
+    margin-left: 10%;
 }
 
 nav
@@ -183,5 +188,9 @@ nav a:hover
 {
     display: none;  
 }
+
+    
+
+
 
 
