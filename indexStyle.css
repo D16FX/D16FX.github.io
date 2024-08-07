@@ -183,5 +183,75 @@ nav a:hover
 {
     display: none;  
 }
-
-
+.wrapper,
+.single-card{
+height: 450px;
+max-width: 300px;
+margin: auto;
+position: relative;
+}
+.wrapper{
+perspective: 900px;
+}
+.single-card{
+text-align: center;
+transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
+transform-style: preserve-3d;
+}
+.wrapper:hover .single-card{
+transform: rotateY(180deg);
+}
+.front, .back{
+width: 300px;
+position: relative;
+top: 0;
+left: 0;
+backface-visibility: hidden;
+}
+.front{
+cursor: pointer;
+height: 100%;
+background-image: url(pagani\ horacio.jpg);
+backface-visibility: hidden;
+border-radius: 50px;
+background-size: cover;
+background-position: center center;
+}
+.back{
+transform: rotateY(180deg);
+position: absolute;
+border-radius: 50px;
+height: 450px;
+background: #fff;
+}
+.content{
+padding-top: 25%;
+}
+.content h2{
+font-family: HeroTitleFont;
+font-size: 35px;
+margin: 0;
+font-weight: 300;
+color: black;
+}
+.content p{
+font-family: navFont;
+font-size: 20px;
+margin: 0;
+}
+.vid video
+{
+    height: 100vh;
+    width: 100%;
+}
+#History
+{
+    border-radius: 100px;
+    border: solid black 10px;
+    transition-duration: 400ms;
+}
+#History:hover
+{
+    border: solid red 10px;
+    transition-duration: 400ms;
+}
