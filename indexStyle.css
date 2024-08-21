@@ -15,7 +15,7 @@ body
     height: 200vh;
     margin: 0;
     padding: 0;
-    background-color: #161618;
+    background-color: #1A1A1C;
 }
 
 .x
@@ -181,6 +181,42 @@ nav a:hover
 .loadingDelete
 {
     display: none;  
+}
+
+.container
+{
+    margin: 0 4%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.card
+{
+    border-left: #C3083F solid 2px;
+    border-right: #C3083F solid 2px;
+    text-align: center;
+    color: #C3083F;
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+}
+
+.card h1
+{
+    margin: 10px 0 5px 0;
+}
+.card p
+{
+    margin: 0 0 20px 0;
+    color: #fff;
+}
+
+.cardImg img
+{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
 }
 
 
