@@ -294,9 +294,7 @@ margin: 0;
     border: solid red 10px;
     transition-duration: 400ms;
 }
-.imageF{
-    height: 100vh;
+.home.png{
     width: 100px;
-    font-size: larger;
-
+    justify-content: space-between;
 }
