@@ -1,0 +1,71 @@
+.contact
+{
+    width: 150px;
+    font-size: 70px;
+}
+
+body
+{
+    background-color: rgb(7, 1, 23);
+    background-image: url(m.jpg);
+    background-size: cover;
+    background-position-y: 5%;
+}
+.imola .adem 
+{
+    user-select: none;
+    position: absolute;
+    size: 150px;
+    height: 50px;
+    width: 100vw;
+    top: 0;
+    
+    
+}
+img 
+{
+    width: 100%;
+    height: -50px;
+    backface-visibility: absolute;
+    border-radius: 50px;
+    height: -50px;
+    background: #fff;
+    
+    
+}
+.adem{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+
+}
+.llop h1
+{
+    color: #faf6f6;
+    height: 50px;
+
+    
+}
+.table
+{
+color: #faf6f6;
+height: 50px;
+}
+.azee
+{
+    color: #faf6f6;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
