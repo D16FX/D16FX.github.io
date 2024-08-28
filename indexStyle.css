@@ -297,6 +297,21 @@ margin: 0;
     transition-duration: 400ms;
 }
 
-.footer_section{
+.fcontainer
+{
+    display: flex;
+    justify-content: center;
+    color: #f5e8e8;
+    align-items: center;
+}
+footer h2{
     text-align: center;
+    color: #f5e8e8;
+}
+.fimg{
+    width: 50px;
+}
+.fimg img
+{
+    width: 100%;
 }
